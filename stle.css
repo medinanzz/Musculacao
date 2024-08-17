@@ -9,7 +9,7 @@
 
 .t {
     color: white;
-    font-size: 5rem;
+    font-size: 50px;
     display: flex;
     justify-content: center;
 }
@@ -35,38 +35,16 @@
 }
 
 .a:hover::after {
-    width: 25%;
+    width: 25.5%;
 }
 
-.link {
-    color: white;
-    font-size: 3rem;
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    position: relative;
-}
 
-.link::after {
-    content: " ";
-    width: 0%;
-    height: 5px;
-    background-color: white;
-    position: absolute;
-    bottom: 0;
-    left: 100;
-    transition: 0.5s ease-in-out;
-}
-
-.link:hover::after {
-    width: 50%;
-}
 
 .link-2 {
     color: white;
     font-size: 3rem;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     text-decoration: none;
     position: relative;
     margin: 0% 3% 0%;
@@ -84,5 +62,5 @@
 }
 
 .link-2:hover::after {
-    width: 18%;
+    width: 28%;
 }
