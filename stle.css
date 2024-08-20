@@ -64,3 +64,7 @@
 .link-2:hover::after {
     width: 28%;
 }
+
+.img {
+    width: 5%;
+}
