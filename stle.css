@@ -1,29 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 * {
-    font-family: "Prompt", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: initial;
     background-color: black;
-    padding: 0%;
-    border: 0%;
 }
 
 .t {
     color: white;
     font-size: 50px;
+    text-align: center;
+}
+
+.link {
+    font-size: 25px;
+    text-decoration: solid;
+    color: white;
+    padding-right: 10px;
+    padding-top: 5px;
     display: flex;
     justify-content: center;
+    background-color: transparent;
+}
+
+.link:hover {
+    text-decoration: underline;
 }
 
 .a {
     color: white;
-    font-size: 3rem;
+    font-size: 40px;
     display: flex;
     justify-content: center;
-    text-decoration: none;
-    position: relative;
+    text-decoration: solid;
 }
 
-.a::after {
+.a:hover {
+    text-decoration: underline;
+}
+
+/* .a::after {
     content: " ";
     width: 0%;
     height: 5px;
@@ -36,21 +53,22 @@
 
 .a:hover::after {
     width: 25.5%;
-}
-
+} */
 
 
 .link-2 {
     color: white;
-    font-size: 3rem;
+    font-size: 40px;
     display: flex;
     justify-content: center;
-    text-decoration: none;
-    position: relative;
-    margin: 0% 3% 0%;
+    text-decoration: solid;
 }
 
-.link-2::after {
+.link-2:hover {
+    text-decoration: underline;
+}
+
+/* .link-2::after {
     content: " ";
     width: 0%;
     height: 5px;
@@ -67,4 +85,4 @@
 
 .img {
     width: 5%;
-}
+} */
