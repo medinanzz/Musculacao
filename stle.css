@@ -5,23 +5,22 @@
     font-weight: 500;
     font-style: initial;
     background-color: black;
+    margin: 0%;
 }
 
 .t {
     color: white;
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
+    padding-bottom: 2cm;
 }
 
 .link {
     font-size: 25px;
     text-decoration: solid;
     color: white;
-    padding-right: 10px;
-    padding-top: 5px;
-    display: flex;
-    justify-content: center;
-    background-color: transparent;
+    border: black solid;
+    padding-right: 5mm;
 }
 
 .link:hover {
